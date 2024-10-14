@@ -35,10 +35,10 @@ export function CharbAiCuisineExplorer() {
   const handleCuisineSelect = (cuisine: string) => {
     setSelectedCuisine(cuisine)
     // Assuming handleSubmit can take an additional parameter for message
-    handleSubmit(
-      { preventDefault: () => {} }, 
+    //handleSubmit(
+      //{ preventDefault: () => {} }, 
       //{ message: `Tell me about ${cuisine} cuisine and suggest 3 popular dishes.` }
-    )
+   // )
   }
 
   // Example usage: Display the selected cuisine

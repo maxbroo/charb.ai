@@ -59,10 +59,7 @@ export function WeeklyGroceryListComponent() {
     setIsOrdering(true)
     setTimeout(() => {
       setIsOrdering(false)
-      toast({
-        title: "Order Placed!",
-        description: "Your grocery order has been successfully placed.",
-      })
+      toast("Order Placed!") // Pass the message directly as a string
     }, 2000)
   }
 
